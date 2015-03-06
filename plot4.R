@@ -28,12 +28,17 @@ plot4.2 <- function() {
   
 }
 
+# If plotting functions not defined, source them.
+if (!exists("plot2")) {source("plot2.R");}
+if (!exists("plot3")) {source("plot3.R");}
+
 plot4 <- function() {
   par(mfrow=c(2,2));
   
-  source("plot2.R");
+  
+  plot2();
   plot4.1();
-  source("plot3.R");
+  plot3();
   plot4.2();
   
   par(mfrow=c(1,1));
