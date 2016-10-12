@@ -1,4 +1,6 @@
-# Exploratory Data Analysis: Course Project 1
+# Exploratory Data Analysis
+# Course Project 1
+# Pawel Daniluk, 2016-10-17
 
 Below please find description of the programs for the Course Project 1.
 

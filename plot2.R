@@ -1,5 +1,6 @@
 # Exploratory Data Analysis
 # Course Project 1
+# Pawel Daniluk, 2016-10-17
 # Plot 2
 
 # Get the filtered data
@@ -10,8 +11,7 @@ if (!exists("epc.filter")) {
   
 }
 
-
-
+# Function for creating plot 2 of the project
 plot2 <- function() {
 
   gap <- epc.filter$Global_active_power;
@@ -25,6 +25,7 @@ plot2 <- function() {
 
 }
 
+# Create plot 2 and write to file with png device
 png("figure/plot2.png");
 plot2();
 dev.off()

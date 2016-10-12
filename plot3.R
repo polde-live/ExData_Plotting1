@@ -1,5 +1,6 @@
 # Exploratory Data Analysis
 # Course Project 1
+# Pawel Daniluk, 2016-10-17
 # Plot 3
 
 # Get the filtered data
@@ -10,7 +11,7 @@ if (!exists("epc.filter")) {
   
 }
 
-
+# Function for creating plot 3 of the project
 plot3 <- function() {
 
   # Changing locale in order to get english weekday names (Windows)
@@ -36,7 +37,7 @@ plot3 <- function() {
 
 }
 
-
+# Create plot 3 and write to file with png device
 png("figure/plot3.png");
 plot3();
 dev.off()
